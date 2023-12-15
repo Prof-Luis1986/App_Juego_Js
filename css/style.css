@@ -1,0 +1,29 @@
+/* Estilos para el cuerpo */
+body {
+    margin: 0; /* Sin márgenes */
+    padding: 0; /* Sin relleno */
+    display: flex; /* Utiliza el modelo de caja flexible */
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    height: 100vh; /* Altura del 100% del viewport */
+    background: linear-gradient(to bottom right, #00c984, #000000); /* Fondo degradado lineal */
+    color: white; /* Texto en color blanco */
+    text-align: center; /* Centra el texto horizontalmente */
+    font-family: Arial, sans-serif; /* Fuente del texto */
+}
+
+/* Estilos para el input con ID 'guess' */
+#guess {
+    width: 80%; /* Ancho del 80% del contenedor */
+    padding: 10px; /* Relleno alrededor del contenido */
+    margin-bottom: 10px; /* Margen en la parte inferior */
+    font-family: 'Courier New', monospace; /* Fuente del texto */
+    font-size: 16px; /* Tamaño del texto */
+    font-weight: bold; /* Texto en negrita */
+}
+
+/* Estilos para elementos con clase 'container' */
+.container {
+    max-width: 400px; /* Ancho máximo del contenedor */
+    width: 100%; /* Ancho del 100% para ajustarse al padre */
+}

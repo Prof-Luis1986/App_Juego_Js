@@ -1,0 +1,22 @@
+<!-- Documento HTML con configuración básica -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"> <!-- Configura el conjunto de caracteres a UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura la escala inicial y el ancho del viewport -->
+    <link rel="stylesheet" href="css/style.css"> <!-- Enlaza el archivo de estilos externo -->
+    <title>Juego de Adivinanzas</title> <!-- Título de la página en la pestaña del navegador -->
+</head>
+<body>
+    <!-- Envuelve el contenido con la clase "container" para aplicar estilos -->
+    <div class="container">
+        <h1>Juego de Adivinanzas</h1> <!-- Encabezado principal -->
+        <p>Intenta adivinar el número entre 1 y 10:</p> <!-- Párrafo con instrucciones -->
+        <input type="number" id="guess" min="1" max="10"> <!-- Input para ingresar el número -->
+        <button onclick="adivinarNumero()">Adivinar</button> <!-- Botón para realizar la adivinanza -->
+        <div id="output"></div> <!-- Contenedor para mostrar resultados o mensajes -->
+    </div>
+
+    <script src="script.js"></script> <!-- Enlaza el archivo de script externo -->
+</body>
+</html>
